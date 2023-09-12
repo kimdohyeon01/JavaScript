@@ -1,0 +1,69 @@
+VM1021:1 김도현님 환영합니다.
+name
+'김도현'
+document.write("제 이름은"+name+"입니다.")
+undefined
+let result
+undefined
+result =20
+20
+const number= 20
+undefined
+const number= 10
+undefined
+number
+10
+number = 20
+VM1631:1 Uncaught TypeError: Assignment to constant variable.
+    at <anonymous>:1:8
+(anonymous) @ VM1631:1
+let age = 23
+undefined
+console.log(name+"님 나이는"+age+"세 입니다.")
+VM1858:1 김도현님 나이는23세 입니다.
+undefined
+console.log(`${name}님의 나이는 ${age}세 입니다.`)
+VM1975:1 김도현님의 나이는 23세 입니다.
+undefined
+let student = {
+    major : "컴퓨터 공학부",
+    idNum : 202095009,
+    name : "김도현"
+}
+undefined
+student
+{major: '컴퓨터 공학부', idNum: 202095009, name: '김도현'}
+student
+{major: '컴퓨터 공학부', idNum: 202095009, name: '김도현'}
+student.name
+'김도현'
+student["major"]
+'컴퓨터 공학부'
+let id = Symbol()
+undefined
+const member = {}
+undefined
+const memer = { 
+    name : "김도현"
+    [id] : 12345
+VM2699:3 Uncaught SyntaxError: Unexpected token ':'
+const memer = { 
+    name : "김도현"
+    [id] : 12345}
+VM2704:3 Uncaught SyntaxError: Unexpected token ':'
+const memer = { 
+    name : "김도현",
+    [id] : 12345
+}
+undefined
+member
+{}[[Prototype]]: Objectconstructor: ƒ Object()hasOwnProperty: ƒ hasOwnProperty()isPrototypeOf: ƒ isPrototypeOf()propertyIsEnumerable: ƒ propertyIsEnumerable()toLocaleString: ƒ toLocaleString()toString: ƒ toString()valueOf: ƒ valueOf()__defineGetter__: ƒ __defineGetter__()__defineSetter__: ƒ __defineSetter__()__lookupGetter__: ƒ __lookupGetter__()__lookupSetter__: ƒ __lookupSetter__()__proto__: (...)get __proto__: ƒ __proto__()set __proto__: ƒ __proto__()
+const member = { 
+    name : "김도현",
+    [id] : 12345
+}
+undefined
+member
+{name: '김도현', Symbol(): 12345}
+member[id]
+12345
